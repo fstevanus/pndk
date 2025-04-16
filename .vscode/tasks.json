@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Development Server",
+            "type": "shell",
+            "command": "python manage.py runserver",
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Runs the Django development server"
+        },
+        {
+            "label": "Run Tests",
+            "type": "shell",
+            "command": "python manage.py test",
+            "group": "test",
+            "problemMatcher": [],
+            "detail": "Runs the Django tests"
+        }
+    ]
+}
