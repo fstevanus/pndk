@@ -37,3 +37,23 @@ link shortener
    ```sh
    python manage.py test
    ```
+
+## Setting up the Codespace Environment
+
+1. **Open the repository in a Codespace:**
+   - Go to the repository on GitHub.
+   - Click on the "Code" button and select "Open with Codespaces".
+   - If you don't have a Codespace created, click on "New codespace".
+
+2. **Wait for the Codespace to initialize:**
+   - The Codespace will automatically use the configuration in the `.devcontainer` directory to set up the development environment.
+
+3. **Run the development server:**
+   - Open a terminal in the Codespace.
+   - Run the following command to start the development server:
+     ```sh
+     python manage.py runserver
+     ```
+
+4. **Access the application:**
+   - Once the server is running, you can access the application by clicking on the "Ports" tab in the Codespace and opening the forwarded port.
